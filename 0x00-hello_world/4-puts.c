@@ -1,8 +1,10 @@
 #include <stdio.h>
-/*#description: main function prints using puts*/
+/**
+ * main - puts also prints just like printf
+ * Return: prints what is contained in puts
+ */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-puts("\n");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
