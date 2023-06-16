@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - prints the size of various types on the computer it is compiled and run on.
- * Return: the size of every char type should be the output
+ * main - prints the size of data types.
+ * Return: the size of every type
  */
 int main(void)
 {
