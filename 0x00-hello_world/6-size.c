@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	printf("The file size of a char is %lu byte and nothing more\n", sizeof(char));
-	printf("The file size of an int is %lu bytes and nothing less\n", sizeof(int));
-	printf("The file size of a float is %lu bytes without mistake\n", sizeof(float));
-	printf("The file size of a double is %lu bytes and thats final\n", sizeof(double));
-	printf("The file size of a long double is %lu bytes and that's on period\n", sizeof(long double));
+	printf("size of a char: %lu byte\(s\)\n", sizeof(char));
+	printf("size of an int: %lu byte\(s\)\n", sizeof(int));
+	printf("size of a float: %lu byte\(s\)\n", sizeof(float));
+	printf("size of a double: %lu byte\(s\)\n", sizeof(double));
+	printf("size of a long double: %lu byte\(s\)\n", sizeof(long double));
 	return (0);
 }
