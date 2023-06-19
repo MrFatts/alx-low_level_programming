@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/**
+ * main - the program identifies numbers 
+ */
 
-/* betty style doc for function main goes there */
+/**
+ * Return - numbers are either positive, negative or zero  
+ */
 int main(void)
 {
 	int n;
@@ -13,7 +17,7 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%d is Positive!\n", n);
+		printf("%d is Positive\n", n);
 	}
 	if (n == 0)
 	{
