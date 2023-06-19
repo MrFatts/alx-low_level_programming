@@ -2,12 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - the program identifies numbers 
- */
-
-/**
- * Return - numbers are either positive, negative or zero  
- */
+* main - the program identifies numbers
+* Return: numbers are either positive, negative or zero
+*/
 int main(void)
 {
 	int n;
@@ -17,7 +14,7 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%d is Positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	if (n == 0)
 	{
