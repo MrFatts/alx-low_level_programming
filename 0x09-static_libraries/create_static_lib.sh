@@ -2,4 +2,4 @@
 
 gcc -c *.c
 ar rc liball.a *.
-ranlib liball.a
+#ranlib liball.a
